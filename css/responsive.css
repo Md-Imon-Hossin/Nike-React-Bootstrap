@@ -2,60 +2,75 @@
   .navbar-expand-lg .navbar-nav {
     margin-left: 35%;
   }
+
   #height-control {
     position: relative;
     height: 96%;
   }
+
   .shoes-card .card .card-body h4 {
     font-size: 1.2rem;
   }
+
   .shoes-card .card .card-body h4 {
     font-size: 1rem;
   }
+
   .perfect-fit {
     width: 95%;
     padding: 10px 0;
   }
 }
+
 @media (max-width: 992px) {
   .navbar-brand img {
     width: 250.11px;
   }
+
   #hero-shoe img {
     width: 100%;
     height: auto;
   }
+
   .hero-content h1 {
     font-size: 3rem;
   }
+
   .hero-content p {
     font-size: 0.8rem;
   }
+
   .perfect-fit {
     width: 100%;
   }
+
   .perfect-fit h3 {
     font-size: 1.2rem;
   }
 }
+
 @media (max-width: 768px) {
   .hero-content {
     margin-top: 5%;
     text-align: center;
   }
 }
+
 @media (max-width: 576px) {
   .shoes h3 {
     font-size: 2rem;
   }
+
   #reversing-image {
     display: flex;
     flex-direction: column-reverse;
   }
+
   #svg-image {
     margin-bottom: 10%;
   }
 }
+
 @media (max-width: 426px) {
   .perfect-fit img {
     width: 55px;

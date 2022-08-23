@@ -2,39 +2,47 @@
             #Google Fonts#
 ----------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
 /*---------------------------------- 
             #Common Style#
  ---------------------------------*/
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 img {
   max-width: 100%;
 }
+
 /*---------------------------------- 
           #Header Top Part#
 ------------------------------------*/
 header {
   background: #fff9f4;
 }
+
 .header-top {
   padding-top: 2rem;
 }
+
 .navbar-brand img {
   width: 291.11px;
   height: 39.27px;
 }
+
 .menu-item {
   margin-left: 55%;
 }
+
 .header-top .menu-item li a {
   color: #3c3c3c;
   font-size: 1rem;
   width: 6.2rem;
 }
+
 /* -------------------------------- 
          #Hero-Section#
 ---------------------------------- */
@@ -47,19 +55,23 @@ header {
   width: 407px;
   height: 407px;
 }
+
 .hero-content h1 {
   font-size: 5rem;
   font-weight: 700;
 }
+
 #hero-content-h1 {
   color: #fa804c;
 }
+
 .hero-content p {
   color: #3e3e3e;
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1.7rem;
 }
+
 .btn {
   background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
   border-radius: 10px;
@@ -68,9 +80,11 @@ header {
   width: 170px;
   height: 60px;
 }
+
 .btn span {
   margin-right: 8px;
 }
+
 /*----------------------------------
           #Shoes-Part#
 ----------------------------------*/
@@ -78,26 +92,31 @@ header {
   margin-top: 50px;
   margin-bottom: 90px;
 }
+
 .shoes h3 {
   font-size: 3rem;
   font-weight: 700;
   color: #363958;
   margin-bottom: 30px;
 }
+
 .shoes-card {
   background: #ffffff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
 }
+
 .shoes-card .card .card-body h4 {
   font-weight: 700;
   font-size: 1.5rem;
 }
+
 .shoes-card .card .card-body p {
   font-weight: 400;
   line-height: 26px;
   font-size: 1rem;
   color: #3e3e3e;
 }
+
 .card-inner-image {
   background: #f1f1f1;
   border-radius: 20px;
@@ -105,21 +124,26 @@ header {
   width: 93%;
   height: auto;
 }
+
 .card-inner-image img {
   width: 236px;
   height: 262px;
 }
+
 #dollar-number {
   color: #fa804c;
   font-weight: 900;
   font-size: 2.25rem;
 }
+
 .body-inner-content {
   padding: 20px;
 }
+
 #color-off {
   background-color: #fff;
 }
+
 /*--------------------------------
           #Footer-Part#
 --------------------------------- */
@@ -127,6 +151,7 @@ footer {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 .perfect-fit {
   /* width: 489px;
   height: 135px; */
@@ -136,15 +161,18 @@ footer {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
 }
+
 .perfect-fit img {
   width: 78px;
   height: 82px;
 }
+
 .perfect-fit h3 {
   font-weight: 700;
   color: #363958;
   font-size: 1.5rem;
 }
+
 .perfect-fit p {
   line-height: 1.6rem;
   color: #3e3e3e;
